@@ -22,8 +22,7 @@ position: fixed;
 .header {
 top: 0;
 background-color: #D60093;
-color:#D60093;
-height: 15%;
+height: 10%;
 z-index: 5;
 }
 
@@ -36,15 +35,23 @@ color: #FFFFFF;
 height: 10%;
 z-index: 5;
 }
-
 .textbox {
 position: absolute;
 width: 80%;
-height: 75%;
-top: 15%;
+height: auto;
 margin: 10%;
+padding:1%;
 background:#ECB2DD;
+
 }
+.begin, .section {
+float: left;
+
+}
+.section {
+display:none;
+}
+
 h1 {
 color: #D60093;
 text-align: left;

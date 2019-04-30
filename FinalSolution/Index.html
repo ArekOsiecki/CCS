@@ -11,10 +11,280 @@
 <h1>UniversAbility Audit</h1>
 </div>
 <div class="textbox">
+<div class="begin">
 <h2>The audit below will help you to get a sense of your organisation’s representativeness of the community in which it is located. 
 Ideally any organisation would reflect the demographics of its setting e.g. gender, age and ethnicity. 
 In this instance we are interested in the relevance of your organisation to people with disabilities. </h2>
 <input type="button" class="button" name="begin" value="Begin" onclick="begin()">
+</div>
+<div class="section">
+<h1>Introduction</h1>
+<form name="MainForm">
+Organization name: <input type="text" name="orgName"><br>
+Description: <textarea name="orgDesc" rows="1" cols="50" Short description of your organization></textarea><br>
+County: <select name="orgCounty" Select county></select><br>
+Town: <select name="orgTown" Select town></select><br>
+Phone no: <input type="text" name="orgPhone" Enter your phone number><br>
+<input type="button" class="button" name="next" value="Next" onclick="nextSection(1)">
+</div>
+<br>
+<div class="section">
+<h1>Verification</h1>
+<h3>Please consider the following questions and identify your level of agreement with the statement
+5. Strongly agree
+4. Agree
+3. Neutral/ Don’t know
+2. Disagree
+1. Strongly disagree</h3>
+<p>I and/or my colleagues know where to get information to help us analyse 
+he business case for consciously attracting people with disabilities as members
+</p>
+1<input type="radio" name="Q1" value="1" checked>
+2<input type="radio" name="Q1" value="2">
+3<input type="radio" name="Q1" value="3">
+4<input type="radio" name="Q1" value="4">
+5<input type="radio" name="Q1" value="5">
+<p>I/my colleagues have researched the scope for increasing the 
+participation of the broader community, in particular people with disabilities  
+</p>
+1<input type="radio" name="Q2" value="1" checked>
+2<input type="radio" name="Q2" value="2">
+3<input type="radio" name="Q2" value="3">
+4<input type="radio" name="Q2" value="4">
+5<input type="radio" name="Q2" value="5">
+<p>I know of disability service providers that I could link with in 
+the local community
+</p>
+1<input type="radio" name="Q3" value="1" checked>
+2<input type="radio" name="Q3" value="2">
+3<input type="radio" name="Q3" value="3">
+4<input type="radio" name="Q3" value="4">
+5<input type="radio" name="Q3" value="5">
+<p>My colleagues and I inclusivize our services to provide for people with 
+disabilities </p>
+1<input type="radio" name="Q4" value="1" checked>
+2<input type="radio" name="Q4" value="2">
+3<input type="radio" name="Q4" value="3">
+4<input type="radio" name="Q4" value="4">
+5<input type="radio" name="Q4" value="5">
+</div>
+<br>
+<div class="section">
+<h1>Value Proposition</h1>
+<h3>Please consider the following questions and identify your level of agreement with the statement
+5. Strongly agree
+4. Agree
+3. Neutral/ Don’t know
+2. Disagree
+1. Strongly disagree</h3>
+<p>My colleagues and I have a significant contribution to make to the quality of life of people in our community, including people with disabilities
+</p>
+1<input type="radio" name="Q5" value="1" checked>
+2<input type="radio" name="Q5" value="2">
+3<input type="radio" name="Q5" value="3">
+4<input type="radio" name="Q5" value="4">
+5<input type="radio" name="Q5" value="5">
+<p>My colleagues and I have the scope to improve opportunities for participation in fitness activities for people living in, or visiting our community, including people with disabilities
+</p>
+1<input type="radio" name="Q6" value="1" checked>
+2<input type="radio" name="Q6" value="2">
+3<input type="radio" name="Q6" value="3">
+4<input type="radio" name="Q6" value="4">
+5<input type="radio" name="Q6" value="5">
+<p>The benefits of increasing our UniversAbility  to increase participation are clear
+</p>
+1<input type="radio" name="Q7" value="1" checked>
+2<input type="radio" name="Q7" value="2">
+3<input type="radio" name="Q7" value="3">
+4<input type="radio" name="Q7" value="4">
+5<input type="radio" name="Q7" value="5">
+<p>My colleagues and I play a major role in providing health services to the entire community, including people with disabilities </p>
+1<input type="radio" name="Q8" value="1" checked>
+2<input type="radio" name="Q8" value="2">
+3<input type="radio" name="Q8" value="3">
+4<input type="radio" name="Q8" value="4">
+5<input type="radio" name="Q8" value="5">
+<p>The UniversAbility  of our fitness services increases the job satisfaction and turnover of my staff </p>
+1<input type="radio" name="Q9" value="1" checked>
+2<input type="radio" name="Q9" value="2">
+3<input type="radio" name="Q9" value="3">
+4<input type="radio" name="Q9" value="4">
+5<input type="radio" name="Q9" value="5">
+</div>
+<br>
+<div class="section">
+<h1>Vision</h1>
+<h3>Please consider the following questions and identify your level of agreement with the statement
+5. Strongly agree
+4. Agree
+3. Neutral/ Don’t know
+2. Disagree
+1. Strongly disagree
+</h3>
+<p>My colleagues and I envision ourselves as leaders of cultural change
+</p>
+1<input type="radio" name="Q10" value="1" checked>
+2<input type="radio" name="Q10" value="2">
+3<input type="radio" name="Q10" value="3">
+4<input type="radio" name="Q10" value="4">
+5<input type="radio" name="Q10" value="5">
+<h3>Which of the following statements best describes your situation within your organisation (Please select one)
+</h3>
+<p>
+<input type="radio" name="Q11" value="5" checked>I and/or my colleagues have identified set targets for increasing the UniversAbility  
+of our services and are putting strategies in place to achieve these goals (5)<br>
+<input type="radio" name="Q11" value="4">I and/or my colleagues have identified scope for increasing the UniversAbility  of our services (4)<br>
+<input type="radio" name="Q11" value="3">I THINK there may be scope for inclusivizing our services but am not sure (3)<br>
+<input type="radio" name="Q11" value="2">I have never considered inclusivizing our services until now (2)<br>
+<input type="radio" name="Q11" value="1">I don’t think inclusivizing our services, in particular for people with disabilities, is really an option for us but won’t rule it out completely until it has been fully explored (1)<br>
+</p>
+</div>
+<br>
+<div class="section">
+<h1>Philosophy</h1>
+<h3>Which of the following statements best describes your situation within your organisation (Please select one)
+</h3>
+<p>Does your organisation have stated ideals in your strategic plan or other management documents which relate UniversAbility  of your services?  </p>
+Yes<input type="radio" name="Q12" value="Yes" checked>
+No<input type="radio" name="Q12" value="No">
+
+<p>2. Do you think an inclusive philosophy is a lived experience by:</p>
+<input type="checkbox" name="Q13" value="Management">a) Management?<br>
+<input type="checkbox" name="Q13" value="Staff">b) Staff?<br>	
+<input type="checkbox" name="Q13" value="Customers">c) Customers?<br>
+</div>
+<br>
+<div class="section">
+<h1>Policy</h1>
+<h3>Which of the following statements best describes your situation within your organisation (Please answer all questions)
+</h3>
+<p>Does your charging policy account for the varied needs of your customers? E.g. No charge for personal assistants</p>
+Yes<input type="radio" name="Q14" value="Yes" checked>
+No<input type="radio" name="Q14" value="No">
+<p>Do you track and monitor the proportion of your club members who experience disabilities?</p>
+Yes<input type="radio" name="Q15" value="Yes" checked>
+No<input type="radio" name="Q15" value="No">
+<p>Have you a budget allocated to:</p>
+<p>(a) increasing the UniversAbility  of your services? (eg. facilities, equipment and staff training)</p>
+Yes<input type="radio" name="Q16" value="Yes" checked>
+No<input type="radio" name="Q16" value="No">	 
+Not needed because  equipment is already fully accessible <input type="radio" name="Q3" value="Done">
+<p>(b) increasing the UniversAbility  of your policies? </p>
+Yes<input type="radio" name="Q17" value="Yes" checked>
+No<input type="radio" name="Q17" value="No">
+<p>Are you familiar with the national legislation that relates to disability service provision? </p>
+Yes<input type="radio" name="Q18" value="Yes" checked>
+No<input type="radio" name="Q18" value="No">
+</div>
+<br>
+<div class="section">
+<h1>Processes</h1>
+<h3>Which of the following statements best describes your situation within your organisation (Please answer all questions)
+</h3>
+<p>Do you engage with disability groups in your local community?</p>
+Yes<input type="radio" name="Q19" value="Yes" checked>
+No<input type="radio" name="Q19" value="No">
+<p>Have you forged any alliance/partnership with any disability organisation?</p>
+Yes<input type="radio" name="Q20" value="Yes" checked>
+No<input type="radio" name="Q20" value="No">
+<p>Have you or your staff embraced any assistive technologies (E.g. Assist-Mi app)?</p>
+Yes<input type="radio" name="Q21" value="Yes" checked>
+No<input type="radio" name="Q21" value="No">	 
+<p>Have you or your colleagues undertaken any research on Inclusivizing your service?</p>
+Yes<input type="radio" name="Q22" value="Yes" checked>
+No<input type="radio" name="Q22" value="No">
+<p>Do you encourage your staff to engage in customer satisfaction conversations with different user groups?</p>
+Yes<input type="radio" name="Q23" value="Yes" checked>
+No<input type="radio" name="Q23" value="No">
+</div>
+<br>
+<div class="section">
+<h1>Perception</h1>
+<h3>Which of the following statements best describes your situation within your organisation (Please answer all questions)
+</h3>
+<p>Do you gather information from your users on their beliefs about fitness being a fundamental right for all?</p>
+Yes<input type="radio" name="Q24" value="Yes" checked>
+No<input type="radio" name="Q24" value="No">
+<p>Do you gather information from people who do NOT use your facility on fitness being a fundamental right for all?</p>
+Yes<input type="radio" name="Q25" value="Yes" checked>
+No<input type="radio" name="Q25" value="No">
+</div>
+<br>
+<div class="section">
+<h1>Programmes</h1>
+<h3>This section refers to programmes that you deliver, or support delivery of, to consciously inclusivize your services
+</h3>
+<p>Do you and your staff provide programmes specifically for people with disabilities?</p>
+Yes<input type="radio" name="Q26" value="Yes" checked>
+No<input type="radio" name="Q26" value="No">
+<p>
+If Yes please complete the table below
+</p>
+<input type="checkbox" name="disability1" value="Physical">Physical disabilities <br>
+<input type="checkbox" name="disability2" value="Intellectual">Intellectual disabilities <br>
+<input type="checkbox" name="disability3" value="Sensory">Sensory disabilities <br>
+<input type="checkbox" name="disability4" value="Mental">Mental health difficulties <br>
+<p>Do people with disabilities use the gym, pool, or participate in group activities etc. alongside other members? </p>
+Yes<input type="radio" name="Q27" value="Yes" checked>
+No<input type="radio" name="Q27" value="No">
+</div>
+<br>
+<div class="section">
+<h1>People</h1>
+<p>Have you or any of your staff/volunteers had training that facilitates the inclusion of people with disabilities?</p>
+<p>Operational (teaching/instructional staff)</p>
+Yes<input type="radio" name="Q28" value="Yes" checked>
+No<input type="radio" name="Q28" value="No">
+
+<p>Management </p>
+Yes<input type="radio" name="Q29" value="Yes" checked>
+No<input type="radio" name="Q29" value="No">
+
+<p>Front of house 	</p>
+Yes<input type="radio" name="Q30" value="Yes" checked>
+No<input type="radio" name="Q30" value="No">
+
+<p>Stakeholders/ contracted staff </p>
+Yes<input type="radio" name="Q31" value="Yes" checked>
+No<input type="radio" name="Q31" value="No">
+
+<p>Are people with disabilities employed by your organisation and/or represented on your steering committee/ management committee/ board of management etc.?</p>
+
+Yes<input type="radio" name="Q32" value="Yes" checked>
+No<input type="radio" name="Q32" value="No">
+
+<p>Is there a member of staff allocated as a liaison/point person for customers with disabilities? </p>
+Yes<input type="radio" name="Q33" value="Yes" checked>
+No<input type="radio" name="Q33" value="No">
+
+</div>
+<br>
+<div class="section">
+<h1>Physical access/place</h1>
+<p>Have you or your colleagues carried out an audit to evaluate the UniversAbility  of your facility    
+</p>
+Yes<input type="radio" name="Q34" value="Yes" checked>
+No<input type="radio" name="Q34" value="No">
+<p>Does your facility( or the facility you use) consider the following disabilities when evaluating UniversAbility :
+</p>
+<input type="checkbox" name="disability1" value="Physical">Physical disabilities <br>
+<input type="checkbox" name="disability2" value="Intellectual">Intellectual disabilities <br>
+<input type="checkbox" name="disability3" value="Sensory">Sensory disabilities <br>
+<input type="checkbox" name="disability4" value="Mental">Mental health difficulties
+</div>
+<br>
+<div class="section">
+<h1>Promotion</h1>
+<p>Is your promotional material inclusive of people with disabilities?
+</p>
+Yes<input type="radio" name="Q35" value="Yes" checked>
+No<input type="radio" name="Q35" value="No">
+<p>Have you or your colleagues/staff developed any promotional materials with the aim of attracting people with disabilities? </p>
+Yes<input type="radio" name="Q36" value="Yes" checked>
+No<input type="radio" name="Q36" value="No">
+</div>
+<br>
+</form>
 </div>
 <div class="footer">T00202430</div>
 </body>
