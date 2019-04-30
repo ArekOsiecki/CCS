@@ -1,0 +1,27 @@
+// JavaScript Document
+
+function next(page, points){
+	var points+=points;
+	window.location.href=page;
+}
+function previous(page, points) {
+	var points-=points;
+	window.location.href=page;
+}
+function begin() {
+		setTimeout(function () {
+	window.location.href="Timeout.html";}, 600000);
+}
+}
+function countPoints() {
+	var result;
+	var points = document.getElementsByName("rName");
+	for (var i=0; length=points.length; i< length; i++) {
+		if (points[i].checked) {
+			result+=points[i].value;
+			break;}
+}
+function showResult() {
+}
+function checkCompletion() {
+}

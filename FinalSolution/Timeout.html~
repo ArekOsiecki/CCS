@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Timeout</title>
+</head>
+<script type="text/javascript" src="script.js"> </script>
+<body>
+<h3>You were inactive for 10 minutes, your session is over</h3>
+<input type="button" name="begin" value="Back to main page">
+</body>
+</html>

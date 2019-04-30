@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Programmes</title>
+</head>
+<script type="text/javascript" src="script.js"> </script>
+<body>
+<h3>This section refers to programmes that you deliver, or support delivery of, to consciously inclusivize your services
+</h3>
+<p>1. Do you and your staff provide programmes specifically for people with disabilities?</p>
+Yes<input type="radio" name="Q1" value="Yes" checked>
+No<input type="radio" name="Q1" value="No">
+<p>If Yes please complete the table below
+</p>
+<input type="checkbox" name="disability1" value="Physical">Physical disabilities <br>
+<input type="checkbox" name="disability2" value="Intellectual">Intellectual disabilities <br>
+<input type="checkbox" name="disability3" value="Sensory">Sensory disabilities <br>
+<input type="checkbox" name="disability4" value="Mental">Mental health difficulties <br>
+<p>2. Do people with disabilities use the gym, pool, or participate in group activities etc. alongside other members? </p>
+Yes<input type="radio" name="Q2" value="Yes" checked>
+No<input type="radio" name="Q2" value="No">
+
+<input type="button" name="next" value="Next">
+<input type="button" name="back" value="Back">
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Index</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<script type="text/javascript" src="script.js"> </script>
+<body>
+<div class="header">
+<h1>UniversAbility Audit</h1>
+</div>
+<div class="textbox">
+<h2>The audit below will help you to get a sense of your organisation’s representativeness of the community in which it is located. 
+Ideally any organisation would reflect the demographics of its setting e.g. gender, age and ethnicity. 
+In this instance we are interested in the relevance of your organisation to people with disabilities. </h2>
+<input type="button" class="button" name="begin" value="Begin" onclick="begin()">
+</div>
+</body>
+</html>

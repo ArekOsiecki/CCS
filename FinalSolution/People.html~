@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>People</title>
+</head>
+<script type="text/javascript" src="script.js"> </script>
+<body>
+<p>1. Have you or any of your staff/volunteers had training that facilitates the inclusion of people with disabilities?</p>
+<p>Operational (teaching/instructional staff)</p>
+Yes<input type="radio" name="Q1a" value="Yes" checked>
+No<input type="radio" name="Q1a" value="No">
+<p>Management </p>
+Yes<input type="radio" name="Q1b" value="Yes" checked>
+No<input type="radio" name="Q1b" value="No">
+<p>Front of house 	</p>
+Yes<input type="radio" name="Q1c" value="Yes" checked>
+No<input type="radio" name="Q1c" value="No">
+<p>Stakeholders/ contracted staff </p>
+Yes<input type="radio" name="Q1d" value="Yes" checked>
+No<input type="radio" name="Q1d" value="No">
+<p>2. Are people with disabilities employed by your organisation and/or represented on your steering committee/ management committee/ board of management etc.?
+Yes<input type="radio" name="Q2" value="Yes" checked>
+No<input type="radio" name="Q2" value="No">
+<p>3. Is there a member of staff allocated as a liaison/point person for customers with disabilities? 
+Yes<input type="radio" name="Q3" value="Yes" checked>
+No<input type="radio" name="Q3" value="No">
+
+<input type="button" name="next" value="Next">
+<input type="button" name="back" value="Back">
+</body>
+</html>
